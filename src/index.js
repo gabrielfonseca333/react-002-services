@@ -4,11 +4,17 @@ import './index.css';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
 import Departamentos from './components/MaestroDetalle/Departamentos';
+import MenuRutas from './components/MenuRutas';
+import Router from './components/Router';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  
-    <Departamentos/>
+    
+    <div>
+        <MenuRutas/>
+        <Router/>
+    </div>
+    
 
 );
 
